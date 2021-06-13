@@ -20,5 +20,5 @@
 
 ## Vídeo de demonstração do aplicativo
 
-![Video]( )
+![Video](https://github.com/camila-github/projeto-angular-lista-de-projetos/blob/main/docs/video/demo-lista-de-projetos.gif)
 
