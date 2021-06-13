@@ -1,0 +1,30 @@
+<div class="drawer-item">
+  <p class="no-padding-margin font-yellow">PROJETOS</p>
+  <button
+    mat-icon-button
+    class="font-yellow"
+    (click)="onAddItem()">
+    <mat-icon>add</mat-icon>
+  </button>
+</div>
+
+<mat-divider class="minimal-padding"></mat-divider>
+
+<div
+  class="drawer-item-child hand-cursor"
+  (click)="onProjectSelect(project)"
+  [@slide]
+  [appHover]="'hover'"
+  [ngClass]="(taskService.getCurrentProjectSubject() | async)?.id === project.id ? 'select':''"
+  *ngFor="let project of taskService.getProjects()">
+    <p
+      class="no-padding-margin">
+      {{ project.title }}
+    </p>
+
+    <button
+      mat-icon-button
+      (click)="onRemoveItem(project.id)">
+      <mat-icon>remove</mat-icon>
+    </button>
+</div>

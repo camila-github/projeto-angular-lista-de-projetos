@@ -1,0 +1,14 @@
+@mixin drawerItem
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: row
+  p
+    margin-left: 0.5rem
+
+.drawer-item
+  @include drawerItem
+
+.drawer-item-child
+  @include drawerItem
+  padding-left: 1rem

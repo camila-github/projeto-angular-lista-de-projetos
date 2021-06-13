@@ -1,0 +1,22 @@
+<mat-toolbar
+  color="primary">
+  <mat-toolbar-row>
+    <span>Lista de Projetos</span>
+    <span class="spacer"></span>
+
+    <hr>
+
+    <button mat-icon-button
+            aria-label="Example icon-button with a heart icon"
+            (click)="drawer.toggle()">
+              <mat-icon>menu</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-drawer-container class="drawer-container" autosize>
+  <mat-drawer #drawer mode="side">
+    <app-task-categories></app-task-categories>
+  </mat-drawer>
+  <app-task-content></app-task-content>
+</mat-drawer-container>

@@ -1,0 +1,29 @@
+@import "colors"
+
+float-button
+  position: fixed
+  right: 1rem
+  bottom: 1rem
+
+@mixin verticalDivider
+  width: 1.5px
+  background: rgb(220, 220, 220, 0.3)
+  margin: 0 10px 0 10px
+  padding: 10px 0 10px 0
+  height: 40%
+  border: 0
+
+@mixin snackbar-base()
+  color: $dimWhite !important
+  .mat-simple-snackbar
+    justify-content: center
+
+.warning-toast
+  background-color: $statusUrgent !important
+  @include snackbar-base
+
+.success-toast
+  background-color: $statusLow !important
+  @include snackbar-base
+
+

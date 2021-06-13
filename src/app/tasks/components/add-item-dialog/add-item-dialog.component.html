@@ -1,0 +1,39 @@
+<div fxLayout="column" fxLayoutAlign="space-around center">
+  <p mat-dialog-title>{{dialogModel.dialogTitle}}</p>
+
+  <mat-form-field
+    class="full-width"
+    *ngIf="data.type === 'add_project' || data.type === 'add_task'">
+      <input
+        matInput
+        placeholder="Titulo"
+        [(ngModel)]="itemModel.title">
+  </mat-form-field>
+
+  <mat-form-field
+    class="full-width"
+    *ngIf="data.type === 'add_task'">
+      <input
+        matInput
+        placeholder="Descrição"
+        [(ngModel)]="itemModelTask.description">
+  </mat-form-field>
+
+  <div fxLayout="row"
+      fxLayoutAlign="space-between center"
+      class="full-width">
+        <button
+          mat-raised-button
+          color="warn"
+          (click)="onDismiss()"
+        >Cancelar
+        </button>
+
+        <button
+          mat-raised-button
+          color="primary"
+          (click)="onAccept()"
+        >Salvar
+        </button>
+  </div>
+</div>

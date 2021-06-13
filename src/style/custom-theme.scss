@@ -1,0 +1,15 @@
+@use '~@angular/material' as mat;
+@import '../../node_modules/@angular/material/theming';
+@import "colors";
+@include mat.core();
+
+/*Typography*/
+$custom-typography: mat.define-typography-config($font-family: '"text", sans-serif;');
+@include mat.core($custom-typography);
+
+/*Colors*/
+$task-primary: mat.define-palette($app-accent, 800);
+$task-accent: mat.define-palette($app-yellow, 600);
+$task-warn: mat.define-palette(mat.$red-palette, 600);
+$task-theme: mat.define-dark-theme($task-primary, $task-accent, $task-warn);
+@include mat.all-component-themes($task-theme);

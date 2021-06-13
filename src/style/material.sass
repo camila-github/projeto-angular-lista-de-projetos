@@ -1,0 +1,60 @@
+@import "colors"
+@import "fonts"
+
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description
+  flex-basis: 0
+
+.example-headers-align .mat-expansion-panel-header-description
+  justify-content: space-between
+  align-items: center
+
+mat-form-field
+  margin-right: 12px
+
+mat-accordion
+  margin: 1rem
+
+mat-expansion-panel-header
+  height: 100% !important
+
+.mat-drawer-container
+  background-color: $darkBlue
+
+mat-drawer
+  @include fontTitle
+  background-color: $darkerBlue !important
+  max-width: 60vw
+  width: 300px
+  color: white !important
+  padding: 1rem
+
+mat-toolbar
+  @include fontTitle
+  background-color: $midnightBlue !important
+  color: white
+  font-size: 120%
+
+.mat-icon-button
+  background: transparent
+  color: white
+
+.mat-expansion-panel
+  background: $oceanBlue
+  margin-left: 1rem !important
+  margin-right: 1rem !important
+
+// Dialogs
+.mat-dialog-container
+  background: $darkerBlue
+  width: 300px !important
+  max-width: 80vw !important
+
+.mat-form-field-label
+  color: $dimWhite !important
+
+.mat-form-field-underline
+  background-color: $dimWhite !important
+
+.mat-form-field-ripple
+  background-color: $dimWhite !important

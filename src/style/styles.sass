@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons")
+@import "../../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css"
+@import "colors"
+@import "task-status"
+@import "custom-theme"
+@import "components"
+@import "borders"
+@import "material"
+@import "fonts"
+
+body
+  margin: 0
+  padding: 0 !important
+  color: $dimWhite
+  height: 100vh
+  @include fontRegular
+
+.no-padding-margin
+  margin: 0
+  padding: 0
+
+.minimal-padding
+  padding: 0.3rem
+
+.hover
+  background: $midnightBlue
+  @include allBorderRadiusStandard
+
+.select
+  background: $darkBlue
+  @include allBorderRadiusStandard
+
+.full-width
+  width: 100%
+
+.hand-cursor
+  cursor: pointer
+
+
+.font-yellow
+  color: $yellow
+
+.font-white
+  color: $dimWhite
