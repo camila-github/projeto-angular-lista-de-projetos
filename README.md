@@ -18,7 +18,17 @@
 - Para rodar a aplicação (Front-End), acesse a pasta raiz e execute `ng serve` para iniciar servidor do angular.
 
 
+### Update
+
+14-11-2021
+- Realizado deploy do projeto via pasta docs. Link de referencia:
+
+![https://www.youtube.com/watch?v=PbgVbCb3zuE&list=PLqsayW8DhUmu5tMEdZxnLsv5aO9cHMNtj&index=2](https://www.youtube.com/watch?v=PbgVbCb3zuE&list=PLqsayW8DhUmu5tMEdZxnLsv5aO9cHMNtj&index=2)
+
+## Site Publicado no link abaixo:
+![https://camila-github.github.io/projeto-angular-lista-de-projetos/tasks](https://camila-github.github.io/projeto-angular-lista-de-projetos/tasks)
+
 ## Vídeo de demonstração do aplicativo
 
-![Video](https://github.com/camila-github/projeto-angular-lista-de-projetos/blob/main/docs/video/demo-lista-de-projetos.gif)
+![Video](https://github.com/camila-github/projeto-angular-lista-de-projetos/blob/main/video-demo/demo-lista-de-projetos.gif)
 
