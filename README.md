@@ -18,7 +18,7 @@
 - Para rodar a aplicação (Front-End), acesse a pasta raiz e execute `ng serve` para iniciar servidor do angular.
 
 
-### Update
+#### Update
 
 14-11-2021 - Realizado deploy do projeto via pasta docs no github. Link de referencia para o procedimento:
 
