@@ -21,7 +21,7 @@
 ### Update
 
 14-11-2021
-- Realizado deploy do projeto via pasta docs. Link de referencia:
+- Realizado deploy do projeto via pasta docs no github. Link de referencia para o procedimento:
 
   [https://www.youtube.com/watch?v=PbgVbCb3zuE&list=PLqsayW8DhUmu5tMEdZxnLsv5aO9cHMNtj&index=2](https://www.youtube.com/watch?v=PbgVbCb3zuE&list=PLqsayW8DhUmu5tMEdZxnLsv5aO9cHMNtj&index=2)
 
